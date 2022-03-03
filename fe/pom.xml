@@ -33,9 +33,7 @@ under the License.
   <packaging>jar</packaging>
 
   <name>Apache Impala Query Engine Frontend</name>
-<properties>
-  <hive.version>3.1.2</hive.version>
-</properties>
+
   <dependencies>
     <!-- Force json-smart dependency.
          See https://issues.apache.org/jira/browse/HADOOP-14903 -->
@@ -539,6 +537,7 @@ under the License.
 
   <properties>
     <buildOutputDirectory>${project.build.directory}/classes</buildOutputDirectory>
+    <!--<hive.version>3.1.2</hive.version>-->
   </properties>
 
   <build>
