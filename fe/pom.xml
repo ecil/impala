@@ -537,7 +537,7 @@ under the License.
 
   <properties>
     <buildOutputDirectory>${project.build.directory}/classes</buildOutputDirectory>
-    <!--<hive.version>3.1.2</hive.version>-->
+    <hive.version>3.1.2</hive.version>
   </properties>
 
   <build>
