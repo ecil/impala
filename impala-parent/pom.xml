@@ -193,14 +193,14 @@ under the License.
         <enabled>${env.IMPALA_TOOLCHAIN_KUDU_MAVEN_REPOSITORY_ENABLED}</enabled>
       </snapshots>
     </repository>
-    <!--<repository>
-      <id>cloudera.thirdparty.repo</id>
-      <url>https://repository.cloudera.com/content/repositories/third-party</url>
-      <name>Cloudera Third Party Repository</name>
+    <repository>
+      <id>cloudera-public</id>
+      <url>https://repository.cloudera.com/artifactory/public/</url>
+      <name>Cloudera Third Party (public)Repository</name>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
-    </repository>-->
+    </repository>
     <repository>
       <!--
       HWX Nexus is disabled. This is a tombstone to list out why:
@@ -233,8 +233,8 @@ under the License.
   </repositories>
   <pluginRepositories>
     <!--<pluginRepository>
-      <id>cloudera.thirdparty.repo</id>
-      <url>https://repository.cloudera.com/content/repositories/third-party</url>
+      <id>cloudera-public</id>
+      <url>https://repository.cloudera.com/artifactory/public/</url>
       <name>Cloudera Third Party Repository</name>
       <snapshots>
         <enabled>false</enabled>
