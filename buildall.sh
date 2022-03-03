@@ -382,13 +382,13 @@ bootstrap_dependencies() {
     echo ">>> Downloading Python dependencies"
     # Download all the Python dependencies we need before doing anything
     # of substance. Does not re-download anything that is already present.
-    if ! "$IMPALA_HOME/infra/python/deps/download_requirements"; then
-      echo "Warning: Unable to download Python requirements."
-      echo "Warning: bootstrap_virtualenv or other Python-based tooling may fail."
-    else
-      echo "Finished downloading Python dependencies"
-    fi
-
+   ##disabled by ecil if ! "$IMPALA_HOME/infra/python/deps/download_requirements"; then
+   ##disabled by ecil      echo "Warning: Unable to download Python requirements."
+   ##disabled by ecil      echo "Warning: bootstrap_virtualenv or other Python-based tooling may fail."
+   ##disabled by ecil    else
+   ##disabled by ecil      echo "Finished downloading Python dependencies"
+   ##disabled by ecil    fi
+    echo ">>> Downloading Python dependencies bypassed by ecil"
     echo ">>> Downloading and extracting toolchain dependencies."
     "$IMPALA_HOME/bin/bootstrap_toolchain.py"
     echo "Toolchain bootstrap complete."
