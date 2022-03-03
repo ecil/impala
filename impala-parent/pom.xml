@@ -232,14 +232,14 @@ under the License.
     </repository>
   </repositories>
   <pluginRepositories>
-    <!--<pluginRepository>
+    <pluginRepository>
       <id>cloudera-public</id>
       <url>https://repository.cloudera.com/artifactory/public/</url>
       <name>Cloudera Third Party Repository</name>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
-    </pluginRepository>-->
+    </pluginRepository>
   </pluginRepositories>
 
 </project>
